@@ -1,8 +1,8 @@
 # stool_consistency
 ## source 
-this python script is based on the tensorflow for poets codelabs : [codelabs link](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
-You will need to clone the repository : 
-```git clone https://github.com/googlecodelabs/tensorflow-for-poets-2  ``` 
+this python script is based on the codelabs : [tensorflow for poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)  
+You will need to clone the repository :  
+```git clone https://github.com/googlecodelabs/tensorflow-for-poets-2  ```  
 and then clone the stool_consistency repository in the scripts folder to get the updated script for training the poobao data set. 
 ## updates 
 The changes made concern the addition of a kfold cross-validation and the use of scikitlearn library to generate the confusion matrix and the f1-measure on the validation set. 
